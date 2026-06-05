@@ -5,21 +5,36 @@ updated: 2026-06-05
 ---
 
 # Wiki Index
-Last updated: 2026-06-05 | Sources: 0 | Pages: 1
-
-> Wiki นี้เพิ่งเริ่มต้น — เพิ่ม source แรกได้เลยด้วย `ingest [file]`
+Last updated: 2026-06-05 | Sources: 6 | Pages: 22
 
 ## Overview
-- [[overview]] — master synthesis *(ยังไม่มีเนื้อหา — จะสร้างหลัง source แรก)*
+- [[overview]] — master synthesis ของระบบน้องอุ่นใจทั้งหมด
 
-## Sources (0)
-*ยังไม่มี — วาง file ลงใน `raw/` แล้วบอก Claude ให้ ingest*
+## Sources (6)
+- [[sources/aunjai-system-overview]] — ภาพรวมระบบ, mission, funnel, scores, roles
+- [[sources/technical-architecture]] — Next.js 15, FastAPI, Docker, Nginx, integrations
+- [[sources/modules]] — 14 modules ทั้งหมด พร้อม routes และ key features
+- [[sources/sos-flow]] — SOS crisis intervention flow ทั้ง chain
+- [[sources/febc-tags-system]] — 364 tags, groups, stats, API endpoints
+- [[sources/deployment-operations]] — deploy process, bugs, health checks
 
-## Entities (0)
-*จะสร้างอัตโนมัติระหว่าง ingest*
+## Entities (8)
+- [[entities/febc-thailand]] — องค์กร FEBC Thailand, mission, products
+- [[entities/sos-command-center]] — "Spiritual ER" crisis module
+- [[entities/arc-console]] — Aunjai Rescue Console, AI chat system
+- [[entities/tags-management]] — Tags module (built 2026-06-05)
+- [[entities/campaign-system]] — CMM v5.1/5.2, broadcast, ROI
+- [[entities/academy-lmm]] — Learning Management Module
+- [[entities/febc-middleware]] — middleware.febradio.org, tag source
+- [[entities/campaign-system]] — CMM campaigns
 
-## Concepts (0)
-*จะสร้างอัตโนมัติระหว่าง ingest*
+## Concepts (6)
+- [[concepts/funnel-stages]] — Engage→Connect→Transform→Send
+- [[concepts/spiritual-scores]] — R, S, Q, I scores + SOS threshold
+- [[concepts/tag-groups]] — auto-detect + custom groups
+- [[concepts/volunteer-escalation]] — SOS volunteer state machine
+- [[concepts/deployment-process]] — safe deploy, docker cp bug
+- [[concepts/api-authentication]] — *(stub — ยังไม่ได้สร้าง)*
 
 ## Queries (0)
-*จะสร้างเมื่อมีคำถามที่ควรเก็บไว้*
+*ยังไม่มี — จะสร้างเมื่อมีคำถามที่น่าเก็บไว้*
