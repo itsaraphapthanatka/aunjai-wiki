@@ -29,12 +29,15 @@ sources: 2
 - Reports: conversion rates ระหว่าง stages
 
 ## Circle Levels (sub-classification)
-ใช้ใน Connect และ Transform:
-- C1 = casual follower
-- C2 = engaged learner  
-- C3 = committed disciple
+ใช้ใน Connect และ Transform — ดูรายละเอียดเต็มที่ [[concepts/circle-level-progression]]:
+- C1 = Engage (R 0.0–0.3) — casual follower
+- C2 = Connect/Transform (R 0.3–0.75) — engaged learner → active disciple
+- C3 = Send (R ≥ 0.85) — committed disciple ready for church
+- C4 = Stewardship — church handover (Local Connector)
 
 ## Related
+- [[concepts/circle-level-progression]] — C1→C4 กลไกปรับระดับ, R-score, APIs
 - [[concepts/spiritual-scores]]
 - [[entities/campaign-system]]
 - [[sources/aunjai-system-overview]]
+- [[sources/aunjai-circle-level-progression]]
