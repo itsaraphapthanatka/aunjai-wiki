@@ -3,8 +3,8 @@ title: "Overview"
 type: overview
 tags: [aunjai, febc, system]
 created: 2026-06-05
-updated: 2026-06-05
-sources: 6
+updated: 2026-06-06
+sources: 7
 ---
 
 # น้องอุ่นใจ System — Overview
@@ -21,11 +21,20 @@ sources: 6
 LINE OA users
     ↕ (webhook, broadcast)
 FastAPI Middleware (Python)  ←→  PostgreSQL + Redis
+    ↕ keyword routing (4 paths)
+OpenClaw Gateway (Aunjai Swarm — 15+ agents)
     ↕
 Next.js Admin UI  ←  Nginx  ← Browser (admin staff)
     ↕
 External: middleware.febradio.org (tags), Pinecone (content), YouTube
 ```
+
+## AI Agent Layer (Aunjai Swarm)
+ระบบ chatbot ทำงานบน **[[concepts/aunjai-swarm]]** — multi-agent swarm บน OpenClaw Gateway
+- **[[concepts/keyword-routing]]** — 4 paths ที่ middleware ก่อนถึง agents (video browse/request, emotional, normal)
+- **[[concepts/message-pipeline]]** — main → sentinel → journey-architect → domain → log
+- **[[concepts/sentinel-safety]]** — 5-level safety scoring; FREEZE ≤ -0.9 → human counselor ทันที
+- **[[concepts/onboarding-flow]]** — 4-step resumable profile setup
 
 ## Key Modules (14)
 Dashboard · Users · **SOS** · **Tags** · Campaigns · Academy · Coins · Churches · Prayer · Volunteer · Content · Commander · Staff · Permissions

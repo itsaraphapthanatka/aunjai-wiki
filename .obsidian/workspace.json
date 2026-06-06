@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "eddfbcca66e19fdb",
+    "type": "split",
+    "children": [
+      {
+        "id": "4081c00fee8ed770",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "045f951d2a4da989",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/sources/aunjai-swarm-agent-flow.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "aunjai-swarm-agent-flow"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "16524a86dba3e27e",
+    "type": "split",
+    "children": [
+      {
+        "id": "2404ce69d4a84d70",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fcf106c912a82998",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "caa7f7b7d91e0902",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "13d9f56aa006273a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e0982f5e309fcf16",
+    "type": "split",
+    "children": [
+      {
+        "id": "4530468db6a3eca3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5cd8544c9ca566ce",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "raw/aunjai-system-overview.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for aunjai-system-overview"
+            }
+          },
+          {
+            "id": "bcf99959eba6de7b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "raw/aunjai-system-overview.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from aunjai-system-overview"
+            }
+          },
+          {
+            "id": "feaadd6e7a7b7b26",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "dd81ae8d7f4e595b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "fb2f138cc2d8a4f6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "raw/aunjai-system-overview.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of aunjai-system-overview"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "045f951d2a4da989",
+  "lastOpenFiles": [
+    "wiki/index.md",
+    "wiki/overview.md",
+    "entities/nextjs-admin.md",
+    "entities",
+    "wiki/concepts/onboarding-flow.md",
+    "raw/Aunjai Swarm — Agent Flow Documentation.md",
+    "wiki/concepts/message-pipeline.md",
+    "wiki/concepts/keyword-routing.md",
+    "wiki/concepts/sentinel-safety.md",
+    "wiki/concepts/aunjai-swarm.md",
+    "wiki/sources/aunjai-swarm-agent-flow.md",
+    "wiki/sources/aunjai-system-overview.md",
+    "raw/aunjai-system-overview.md",
+    "wiki/concepts/spiritual-scores.md",
+    "wiki/concepts/funnel-stages.md",
+    "raw/modules.md",
+    "raw/febc-tags-system.md",
+    "wiki/concepts/volunteer-escalation.md",
+    "wiki/entities/arc-console.md",
+    "wiki/entities/sos-command-center.md",
+    "raw/technical-architecture.md",
+    "raw/sos-flow.md",
+    "raw/deployment-operations.md"
+  ]
+}

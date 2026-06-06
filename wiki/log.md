@@ -1,5 +1,10 @@
 # Activity Log
 
+## [2026-06-06] ingest | Aunjai Swarm — Agent Flow Documentation
+- Pages created: 6 (sources/aunjai-swarm-agent-flow, concepts/aunjai-swarm, concepts/sentinel-safety, concepts/keyword-routing, concepts/message-pipeline, concepts/onboarding-flow)
+- Pages updated: 5 (entities/arc-console, entities/sos-command-center, overview, index, log)
+- Key additions: full agent swarm architecture (15+ agents, 6 groups), 4-path keyword routing, sentinel 5-level safety system, per-message pipeline, onboarding flow
+
 ## [2026-06-05] init | Wiki initialized
 - Structure created: raw/, wiki/entities/, wiki/concepts/, wiki/sources/, wiki/queries/
 - Schema written: CLAUDE.md

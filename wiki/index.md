@@ -5,18 +5,19 @@ updated: 2026-06-05
 ---
 
 # Wiki Index
-Last updated: 2026-06-05 | Sources: 6 | Pages: 22
+Last updated: 2026-06-06 | Sources: 7 | Pages: 28
 
 ## Overview
 - [[overview]] — master synthesis ของระบบน้องอุ่นใจทั้งหมด
 
-## Sources (6)
+## Sources (7)
 - [[sources/aunjai-system-overview]] — ภาพรวมระบบ, mission, funnel, scores, roles
 - [[sources/technical-architecture]] — Next.js 15, FastAPI, Docker, Nginx, integrations
 - [[sources/modules]] — 14 modules ทั้งหมด พร้อม routes และ key features
 - [[sources/sos-flow]] — SOS crisis intervention flow ทั้ง chain
 - [[sources/febc-tags-system]] — 364 tags, groups, stats, API endpoints
 - [[sources/deployment-operations]] — deploy process, bugs, health checks
+- [[sources/aunjai-swarm-agent-flow]] — Aunjai Swarm 15+ agents, OpenClaw, 4-path routing, sentinel
 
 ## Entities (8)
 - [[entities/febc-thailand]] — องค์กร FEBC Thailand, mission, products
@@ -28,13 +29,18 @@ Last updated: 2026-06-05 | Sources: 6 | Pages: 22
 - [[entities/febc-middleware]] — middleware.febradio.org, tag source
 - [[entities/campaign-system]] — CMM campaigns
 
-## Concepts (6)
+## Concepts (11)
 - [[concepts/funnel-stages]] — Engage→Connect→Transform→Send
 - [[concepts/spiritual-scores]] — R, S, Q, I scores + SOS threshold
 - [[concepts/tag-groups]] — auto-detect + custom groups
 - [[concepts/volunteer-escalation]] — SOS volunteer state machine
 - [[concepts/deployment-process]] — safe deploy, docker cp bug
 - [[concepts/api-authentication]] — *(stub — ยังไม่ได้สร้าง)*
+- [[concepts/aunjai-swarm]] — multi-agent architecture บน OpenClaw Gateway
+- [[concepts/sentinel-safety]] — 5-level safety scoring; FREEZE → human counselor
+- [[concepts/keyword-routing]] — 4-path routing ที่ middleware ก่อน agents
+- [[concepts/message-pipeline]] — per-message agent sequence (8 steps)
+- [[concepts/onboarding-flow]] — 4-step resumable user profile setup
 
 ## Queries (0)
 *ยังไม่มี — จะสร้างเมื่อมีคำถามที่น่าเก็บไว้*

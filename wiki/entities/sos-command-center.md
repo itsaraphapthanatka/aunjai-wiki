@@ -16,6 +16,8 @@ sources: 2
 ## Trigger Condition
 S-score ≤ -0.9 หรือ admin สร้างมือ
 
+(confirmed) sentinel agent ([[concepts/sentinel-safety]]) ใน Aunjai Swarm คือกลไกที่ detect และ trigger FREEZE state นี้ฝั่ง LINE chatbot — FREEZE threshold ≤ -0.9 ตรงกัน
+
 ## Response Chain
 AI Autopilot → Staff Takeover → Volunteer Escalation / Field Escalation
 

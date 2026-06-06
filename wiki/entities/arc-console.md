@@ -1,10 +1,10 @@
 ---
 title: "ARC Console"
 type: entity
-tags: [arc, ai, chat, sos]
+tags: [arc, ai, chat, sos, openclaw]
 created: 2026-06-05
-updated: 2026-06-05
-sources: 1
+updated: 2026-06-06
+sources: 2
 ---
 
 # ARC Console
@@ -35,7 +35,14 @@ AI-driven chat system ที่ทำงานระหว่าง SOS case
 - เปิดจาก SOS Command Center
 - เปิดได้จาก LINE Flex Message: `?caseId=UUID`
 
+## OpenClaw Backend
+
+(confirmed) ARC Console's AI chat is powered by the **front-desk agent** in [[concepts/aunjai-swarm]] — accessed via ARC-GATE → OpenClaw Gateway. ข้อความผ่าน [[concepts/message-pipeline]] เต็มรูปแบบ รวมถึง sentinel safety scan
+
 ## Related
 - [[entities/sos-command-center]]
 - [[concepts/volunteer-escalation]]
+- [[concepts/aunjai-swarm]]
+- [[concepts/sentinel-safety]]
 - [[sources/sos-flow]]
+- [[sources/aunjai-swarm-agent-flow]]
