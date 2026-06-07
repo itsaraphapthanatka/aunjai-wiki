@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "33fe49b3e0571a01",
+        "id": "edc953c5200569fa",
         "type": "tabs",
         "children": [
           {
-            "id": "151f90aadfbbd657",
+            "id": "b03eae59401e686b",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -179,34 +179,35 @@
       "bases:Create new base": false
     }
   },
-  "active": "151f90aadfbbd657",
+  "active": "b03eae59401e686b",
   "lastOpenFiles": [
-    "wiki/entities/campaign-system.md",
-    "raw/sos-flow.md",
-    "wiki/index.md",
-    "entities/fastapi-middleware.md",
-    "wiki/entities/tags-management.md",
-    "wiki/entities/sos-command-center.md",
-    "wiki/entities/febc-thailand.md",
     "wiki/entities/febc-middleware.md",
+    "wiki/log.md",
+    "entities/line-oa.md",
+    "raw/deployment-operations.md",
+    "raw/Aunjai Swarm — Agent Flow Documentation.md",
+    "raw/modules.md",
+    "wiki/sources/aunjai-circle-level-progression.md",
+    "CLAUDE.md",
+    "aunjai-circle-level-progression.pdf",
+    "wiki/concepts/aunjai-swarm.md",
+    "wiki/sources/aunjai-swarm-agent-flow.md",
+    "wiki/concepts/circle-level-progression.md",
+    "wiki/concepts/funnel-stages.md",
+    "raw/aunjai-circle-level-progression.md",
+    "wiki/entities/campaign-system.md",
+    "wiki/sources/aunjai-system-overview.md",
     "wiki/entities/arc-console.md",
+    "wiki/entities/sos-command-center.md",
+    "wiki/concepts/spiritual-scores.md",
+    "wiki/sources/febc-tags-system.md",
+    "wiki/sources/modules.md",
+    "wiki/sources/sos-flow.md",
+    "wiki/sources/technical-architecture.md",
+    "wiki/entities/tags-management.md",
+    "wiki/entities/febc-thailand.md",
     "wiki/entities/academy-lmm.md",
     "wiki/concepts/volunteer-escalation.md",
-    "wiki/concepts/tag-groups.md",
-    "wiki/concepts/spiritual-scores.md",
-    "wiki/concepts/aunjai-swarm.md",
-    "wiki/concepts/sentinel-safety.md",
-    "wiki/sources/aunjai-swarm-agent-flow.md",
-    "raw/deployment-operations.md",
-    "raw/febc-tags-system.md",
-    "raw/modules.md",
-    "wiki/sources/technical-architecture.md",
-    "wiki/overview.md",
-    "entities/nextjs-admin.md",
-    "entities",
-    "wiki/concepts/onboarding-flow.md",
-    "raw/Aunjai Swarm — Agent Flow Documentation.md",
-    "wiki/concepts/message-pipeline.md",
-    "wiki/concepts/keyword-routing.md"
+    "entities"
   ]
 }
