@@ -3,7 +3,7 @@ title: "Aunjai Swarm — Agent Flow Documentation"
 type: source
 tags: [swarm, agents, openclaw, architecture, sentinel]
 created: 2026-06-06
-updated: 2026-06-06
+updated: 2026-06-11
 sources: 1
 ---
 
@@ -40,12 +40,23 @@ sources: 1
 
 > "⚡ 55 msgs | P95: 9.5s" *(sentinel performance)*
 
+## อัปเดต v7.0 (2026-06-08 – 2026-06-11)
+
+ดูรายละเอียดทั้งหมด → [[sources/work-log-2026-06-08-to-11]]
+
+- **19 agents** (เพิ่มจาก 15+) — agent ใหม่ที่เข้าระบบยังไม่ระบุชัดเจน
+- **Risk Register อัปเดต**: Kimi K2.5 TTFB 1.5s floor → แก้โดย front-desk ต้องเรียก `user_get_profile` ก่อน sentinel (ลด wasted sentinel calls)
+- **Front-desk model** เปลี่ยนเป็น kimi-k2.6
+- **aunjai-messenger** เปลี่ยน model เป็น kimi-code (reasoning, ctx 262k) + Claude Sonnet 4.6/Opus 4.6 + Gemini 3.1 Pro + DeepSeek V3 (via OpenRouter)
+- Sentinel performance ปรับปรุง: ลด P95 latency จาก 43s, Max จาก 107.7s หลัง front-desk fix
+
 ## Gaps / Unanswered Questions
 
-- ไม่ระบุ LLM ที่ใช้ใน agents แต่ละตัว (GPT-4? Claude?)
+- ~~ไม่ระบุ LLM ที่ใช้~~ → อัปเดต 2026-06-11: aunjai-messenger = kimi-code + multi-model, front-desk = kimi-k2.6
 - ไม่มีรายละเอียด `maac-sync` และ master-brain คือระบบอะไร
 - `referral-tracker` / affiliate system ไม่มี flow ละเอียด
 - `auto-qa` ตรวจ API health ทุก service — ไม่รู้ frequency/alerting
+- Telegram bot code สำหรับสร้าง Access Links ยังไม่พบใน codebase
 
 ## Related
 

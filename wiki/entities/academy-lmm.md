@@ -1,10 +1,10 @@
 ---
 title: "Academy (LMM)"
 type: entity
-tags: [academy, lmm, learning, certificate, lessons]
+tags: [academy, lmm, learning, certificate, lessons, post-cert, topic-affinity]
 created: 2026-06-05
-updated: 2026-06-05
-sources: 1
+updated: 2026-06-11
+sources: 2
 ---
 
 # Academy (LMM)
@@ -32,6 +32,17 @@ sources: 1
   PENDING_DELIVERY → PACKED → SHIPPED → IN_TRANSIT → DELIVERED
 - Thailand Post integration
 
+## Post-Certificate Journey (v1.1 Phase 3) — เพิ่ม 2026-06-08
+
+หลัง user ได้รับใบประกาศ ระบบส่ง follow-up อัตโนมัติ Day 0/2/5/10/14/30  
+รายละเอียด → [[concepts/post-cert-journey]]
+
+## Topic Affinity System — เพิ่ม 2026-06-08
+
+EMA scoring per user per topic tag หลัง quiz completion (α=0.2)  
+`curriculum_sets.topic_tags TEXT[]` ใช้ label topic สำหรับ journey recommendation  
+รายละเอียด → [[concepts/topic-affinity]]
+
 ## Learner Analytics
 - Dropout detection (on_track | slow | dropout_risk)
 - Score averages, completion rates
@@ -44,4 +55,7 @@ sources: 1
 ## Related
 - [[entities/campaign-system]]
 - [[concepts/certificate-delivery]]
+- [[concepts/post-cert-journey]]
+- [[concepts/topic-affinity]]
 - [[sources/modules]]
+- [[sources/work-log-2026-06-08-to-11]]

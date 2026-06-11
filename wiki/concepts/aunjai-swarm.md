@@ -3,8 +3,8 @@ title: "Aunjai Swarm"
 type: concept
 tags: [swarm, agents, openclaw, architecture]
 created: 2026-06-06
-updated: 2026-06-06
-sources: 1
+updated: 2026-06-11
+sources: 2
 ---
 
 # Aunjai Swarm
@@ -29,6 +29,11 @@ Multi-agent AI architecture ของน้องอุ่นใจ ทำงา
 - **🎓 academy-specialist** — ออกแบบ Faith Quiz; trigger coin award ผ่าน reward-manager
 - **🪙 reward-manager** — จัดการ Token & Coins reward system
 - **🤝 referral-tracker** — ระบบ Affiliate ติดตามการแนะนำเพื่อน; ส่ง referral bonus ไป reward-manager
+
+### Model Updates (2026-06-08–11)
+
+- **front-desk**: kimi-k2.6 | SOUL: mandatory `user_get_profile` first, แยก Senior (46-60) vs ผู้สูงวัย (60+)
+- **aunjai-messenger**: kimi-code (reasoning, ctx 262k) + full multi-model stack (Claude 4.6, Gemini 3.1, DeepSeek V3)
 
 ### Group 4 — Soul Care & SOS
 - **🙏 intercessory-coordinator** — ประสานงาน Prayer Partner Bridge; handoff ไป care-loop-closer
@@ -64,5 +69,8 @@ Multi-agent AI architecture ของน้องอุ่นใจ ทำงา
 - [[concepts/keyword-routing]]
 - [[concepts/message-pipeline]]
 - [[concepts/onboarding-flow]]
+- [[concepts/automated-lifecycle-services]]
 - [[entities/arc-console]]
+- [[entities/access-links-module]]
 - [[sources/aunjai-swarm-agent-flow]]
+- [[sources/work-log-2026-06-08-to-11]]

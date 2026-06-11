@@ -1,5 +1,10 @@
 # Activity Log
 
+## [2026-06-11] ingest | Work Log 8–11 มิ.ย. 2026
+- Pages created: 6 (sources/work-log-2026-06-08-to-11, entities/access-links-module, concepts/post-cert-journey, concepts/topic-affinity, concepts/automated-lifecycle-services, raw/work-log-2026-06-08-to-11)
+- Pages updated: 7 (entities/academy-lmm, concepts/aunjai-swarm, sources/aunjai-swarm-agent-flow, overview, index, log, wiki/sources/work-log-2026-06-08-to-11)
+- Key additions: Smart Access Links module (QR + 2-level approval), Post-Cert Journey Phase 3 (Day 0/2/5/10/14/30), Topic Affinity EMA system, Night Prayer Service, Morning Greeting v5 Ph3, Feature Flags API, agent model updates (kimi-code, multi-model stack), front-desk/aunjai-messenger SOUL updates
+
 ## [2026-06-06] ingest | Aunjai Swarm — Agent Flow Documentation
 - Pages created: 6 (sources/aunjai-swarm-agent-flow, concepts/aunjai-swarm, concepts/sentinel-safety, concepts/keyword-routing, concepts/message-pipeline, concepts/onboarding-flow)
 - Pages updated: 5 (entities/arc-console, entities/sos-command-center, overview, index, log)
