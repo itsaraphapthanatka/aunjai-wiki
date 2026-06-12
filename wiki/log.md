@@ -1,5 +1,12 @@
 # Activity Log
 
+## [2026-06-12] ingest | 📖 Aunjai Bible Knowledge (10 แหล่ง)
+- Extracted: 10 ไฟล์ (docx/pdf/pptx) → raw/bible/*.md (~48.5K chars) ผ่าน pypdf + python-docx + zipfile/xml (pptx)
+- Pages created: 24 — sources (10): thiessen-systematic-theology, baptist-doctrine-encyclopedia, jesus-the-messiah, theological-puzzles, purpose-driven-life, seeker-spiritual-framework, bible-survey-ot, bible-survey-nt, israel-history-ep1, israel-history-ep2 · concepts (12): systematic-theology, trinity, christology, soteriology, bibliology, bible-canon, baptist-distinctives, messianic-prophecy, israel-history-ot, five-purposes, christian-apologetics, christian-denominations · entities (2): jesus-christ, israel-nation
+- Pages updated: index.md (sources 9→19, entities 9→11, concepts 15→27, pages 37→61), overview.md
+- Key additions: โดเมนความรู้ใหม่ (ศาสนศาสตร์/พระคัมภีร์) สำหรับ AI ใช้ตอบคู่สนทนา — จุดยืนนิกาย **แบ๊บติสต์**, 8 สาขาศาสนศาสตร์ระบบ, คริสตวิทยา + คำพยากรณ์เมสสิยาห์, 5 จุดประสงค์ชีวิต, ประวัติศาสตร์อิสราเอล (timeline OT)
+- Conflict flags: ธรรมบัญญัติ/พระคุณ (israel-history-ep1); eschatology single-source (systematic-theology)
+
 ## [2026-06-11] ingest | Work Log 8–11 มิ.ย. 2026
 - Pages created: 6 (sources/work-log-2026-06-08-to-11, entities/access-links-module, concepts/post-cert-journey, concepts/topic-affinity, concepts/automated-lifecycle-services, raw/work-log-2026-06-08-to-11)
 - Pages updated: 7 (entities/academy-lmm, concepts/aunjai-swarm, sources/aunjai-swarm-agent-flow, overview, index, log, wiki/sources/work-log-2026-06-08-to-11)

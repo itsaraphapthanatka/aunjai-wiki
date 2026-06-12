@@ -1,15 +1,19 @@
 ---
 title: "Overview"
 type: overview
-tags: [aunjai, febc, system]
+tags: [aunjai, febc, system, theology]
 created: 2026-06-05
-updated: 2026-06-11
-sources: 9
+updated: 2026-06-12
+sources: 19
 ---
 
 # น้องอุ่นใจ System — Overview
 
 ## What This Wiki Covers
+**2 โดเมน:**
+1. **ระบบน้องอุ่นใจ (technical)** — Admin Command Center, agents, modules, SOS, tags ฯลฯ
+2. **📖 ความรู้ศาสนศาสตร์/พระคัมภีร์ (Bible Knowledge)** — คลังความรู้ที่ AI ใช้อ้างอิงตอบคู่สนทนา (ingest 2026-06-12, 10 แหล่ง) — ดูหัวข้อด้านล่าง
+
 ระบบ Admin Command Center ของน้องอุ่นใจ — LINE OA chatbot + AI companion สำหรับ FEBC Thailand งานดูแลจิตใจและ discipleship
 
 ## Core Mission
@@ -51,6 +55,14 @@ Dashboard · Users · **SOS** · **Tags** · Campaigns · Academy · Coins · Ch
 - [[concepts/automated-lifecycle-services]] — Night Prayer Service (ใหม่), Morning Greeting v5 Phase 3
 - Feature Flags API: quiz_enabled / coin_enabled
 
+## 📖 Knowledge Base — ศาสนศาสตร์/พระคัมภีร์ (ingest 2026-06-12)
+คลังความรู้สำหรับ AI ใช้ตอบคู่สนทนา (10 แหล่ง → raw/bible/). **จุดยืนนิกาย = แบ๊บติสต์** ([[concepts/baptist-distinctives]])
+- **โครงหลัก**: [[concepts/systematic-theology]] (8 สาขา) — Theology Proper · [[concepts/bibliology]] · [[concepts/christology]] · Pneumatology · Anthropology · [[concepts/soteriology]] · Ecclesiology · Eschatology
+- **แก่นความเชื่อ**: [[concepts/trinity]] · [[entities/jesus-christ]] · [[concepts/messianic-prophecy]] · [[concepts/bible-canon]] (66 เล่ม)
+- **ประยุกต์/อภิบาล**: [[concepts/five-purposes]] (จุดประสงค์ชีวิต) · [[concepts/christian-apologetics]] (ตอบข้อสงสัย) · [[concepts/christian-denominations]]
+- **ประวัติศาสตร์**: [[concepts/israel-history-ot]] · [[entities/israel-nation]]
+- ⚠️ ความรู้นี้อยู่ใน Obsidian wiki — **ยังไม่ได้ ingest เข้า `wiki_knowledge` table** ที่ middleware ใช้ตอบจริง (ดู Open Questions)
+
 ## Built (2026-06-05)
 - [[entities/tags-management]] — Tags Management module (สร้างใหม่ทั้งหมด)
   - 364 FEBC tags, auto-grouped, custom group colors
@@ -73,6 +85,8 @@ Dashboard · Users · **SOS** · **Tags** · Campaigns · Academy · Coins · Ch
 - `available_days` field — logic การ expire ยังไม่ถูก implement ใน backend
 - Telegram bot สำหรับ Access Links (สร้าง link ผ่าน Telegram) — ยังไม่พบ bot code
 - Agent count v7.0 = 19 agents แต่ list agent เพิ่มใหม่ยังไม่ชัดเจน
+- 📖 **ความรู้ศาสนศาสตร์ใน wiki นี้ ยังไม่ถูกนำเข้า `wiki_knowledge` table** ที่ middleware ใช้ตอบจริง (RAG) — ต้องแปลงเป็น entries (category/tags/title/content) + INSERT จึงจะมีผลกับการสนทนาจริง
+- PPTX (ประวัติศาสตร์อิสราเอล) สกัดมี artifact การตัดคำไทย — ควร clean ก่อนใช้เป็น RAG content
 
 ## Related
 - [[index]]
